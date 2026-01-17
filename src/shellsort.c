@@ -23,7 +23,6 @@ uint64_t shellsort(int32_t *arr, size_t n, const gap_sequence_t *seq) {
 
             /*
              * Inner loop: count comparison each time we evaluate arr[j-gap] > temp
-             * Per CLAUDE.md 3.2: count ONE comparison per evaluation of the
              * data comparison, regardless of outcome.
              */
             while (j >= gap) {
