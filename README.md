@@ -1,5 +1,7 @@
 # Shellsort Evolved
 
+[![DOI](https://zenodo.org/badge/1136260484.svg)](https://doi.org/10.5281/zenodo.18281131)
+
 An empirically optimized gap sequence for Shellsort that achieves **0.52% fewer comparisons** than the widely-used Ciura sequence across array sizes from 1M to 8M elements.
 
 ## The Evolved Sequence
@@ -110,10 +112,12 @@ Public domain. Use freely for any purpose.
 If you use this work, please cite:
 
 ```bibtex
-@misc{shellsort-evolved,
+@software{banner2026shellsort,
   author = {Banner, Bryan},
   title = {An Improved Gap Sequence for Shellsort via Evolutionary Optimization},
   year = {2026},
-  url = {https://github.com/imcynic/shellsort-evolved}
+  publisher = {Zenodo},
+  doi = {10.5281/zenodo.18281131},
+  url = {https://doi.org/10.5281/zenodo.18281131}
 }
 ```
