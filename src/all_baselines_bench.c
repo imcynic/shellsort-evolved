@@ -94,8 +94,11 @@ int main(int argc, char **argv) {
         printf("N = %lu (%lu trials)\n", sizes[s], ds.trials);
         for (int i = 0; i < 7; i++) {
             results[i][s] = benchmark(&ds, &seqs[i], threads);
-            double vs_evolved = (results[i][s] - results[6][s]) / results[i][s] * 100.0;
-            printf("  %-12s: %14.2f  (vs Evolved: %+.4f%%)\n", 
+        }
+        /* Print after all benchmarks complete so we have evolved result */
+        for (int i = 0; i < 7; i++) {
+            double vs_evolved = (results[i][s] - results[6][s]) / results[6][s] * 100.0;
+            printf("  %-12s: %14.2f  (vs Evolved: %+.4f%%)\n",
                    names[i], results[i][s], i == 6 ? 0.0 : vs_evolved);
         }
         printf("\n");
