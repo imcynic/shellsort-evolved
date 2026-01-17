@@ -1,7 +1,7 @@
 /*
  * gaps_baselines.h - Baseline gap sequences for benchmarking
  *
- * All sequences from CLAUDE.md section 5:
+ * Gap sequences from published literature:
  * - Ciura (with 2.25x extension)
  * - Tokuda
  * - Lee (2021) gamma-sequence

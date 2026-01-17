@@ -1,7 +1,7 @@
 /*
  * shellsort.h - Shellsort with comparison counting
  *
- * Comparison counting follows CLAUDE.md section 3.2:
+ * Comparison counting follows standard Shellsort definition:
  * Count ONE comparison each time A[j-gap] > temp is evaluated.
  * Do NOT count loop bounds, swaps, indexing, etc.
  */
@@ -53,7 +53,7 @@ uint64_t shellsort(int32_t *arr, size_t n, const gap_sequence_t *seq);
 sort_stats_t shellsort_stats(int32_t *arr, size_t n, const gap_sequence_t *seq);
 
 /*
- * Validate a gap sequence according to CLAUDE.md section 3.3:
+ * Validate a gap sequence according to standard requirements:
  * - Strictly increasing (when stored ascending)
  * - Contains 1
  * - All gaps positive
