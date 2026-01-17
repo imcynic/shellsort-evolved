@@ -1,0 +1,127 @@
+================================================================================
+COMPREHENSIVE SHELLSORT GAP SEQUENCE BENCHMARK
+================================================================================
+
+System Configuration:
+  Threads: 16
+  Permutations directory: results/perms
+
+Ciura sequence (19 gaps): [1, 4, 10, 23, 57, 132, 301, 701, 1577, 3548, 7983, 17961, 40412, 90927, 204585, 460316, 1035711, 2330349, 5243285]
+
+Evolved sequence (19 gaps): [1, 4, 10, 23, 57, 132, 301, 701, 1577, 3524, 7705, 17961, 40056, 94681, 199137, 460316, 1035711, 3236462, 7282039]
+
+================================================================================
+N = 1000000
+================================================================================
+Trials: 100
+
+Ciura gaps used: 16, Evolved gaps used: 16
+
+COMPARISON COUNTS:
+Sequence               Mean           StdDev           StdErr           95% CI
+Ciura           31944358.18         30400.81          3040.08 [31938399.62, 31950316.74]
+Evolved         31825783.55         19630.31          1963.03 [31821936.01, 31829631.09]
+
+Improvement: 0.3712%
+
+PAIRED T-TEST (Ciura - Evolved):
+  Mean difference: 118574.63 comparisons
+  t-statistic: 32.2363
+  p-value (approx): 0.00e+00
+  Significant at alpha=0.05: YES
+  Significant at alpha=0.01: YES
+  Significant at alpha=0.001: YES
+
+RUNTIME (microseconds):
+Sequence               Mean           StdDev
+Ciura              84944.90          1523.14
+Evolved            86079.56          1239.69
+
+================================================================================
+N = 2000000
+================================================================================
+Trials: 50
+
+Ciura gaps used: 17, Evolved gaps used: 17
+
+COMPARISON COUNTS:
+Sequence               Mean           StdDev           StdErr           95% CI
+Ciura           67831818.98         78323.64         11076.64 [67810108.77, 67853529.19]
+Evolved         67563913.46         35077.06          4960.65 [67554190.59, 67573636.33]
+
+Improvement: 0.3950%
+
+PAIRED T-TEST (Ciura - Evolved):
+  Mean difference: 267905.52 comparisons
+  t-statistic: 23.9661
+  p-value (approx): 0.00e+00
+  Significant at alpha=0.05: YES
+  Significant at alpha=0.01: YES
+  Significant at alpha=0.001: YES
+
+RUNTIME (microseconds):
+Sequence               Mean           StdDev
+Ciura             184492.14          3288.68
+Evolved           183969.27          2830.85
+
+================================================================================
+N = 4000000
+================================================================================
+Trials: 25
+
+Ciura gaps used: 18, Evolved gaps used: 18
+
+COMPARISON COUNTS:
+Sequence               Mean           StdDev           StdErr           95% CI
+Ciura          143478037.36        114672.05         22934.41 [143431136.49, 143524938.23]
+Evolved        142782469.08         49246.47          9849.29 [142762327.27, 142802610.89]
+
+Improvement: 0.4848%
+
+PAIRED T-TEST (Ciura - Evolved):
+  Mean difference: 695568.28 comparisons
+  t-statistic: 29.9890
+  p-value (approx): 0.00e+00
+  Significant at alpha=0.05: YES
+  Significant at alpha=0.01: YES
+  Significant at alpha=0.001: YES
+
+RUNTIME (microseconds):
+Sequence               Mean           StdDev
+Ciura             394093.96         10534.46
+Evolved           394844.62          9261.84
+
+================================================================================
+N = 8000000
+================================================================================
+Trials: 10
+
+Ciura gaps used: 19, Evolved gaps used: 19
+
+COMPARISON COUNTS:
+Sequence               Mean           StdDev           StdErr           95% CI
+Ciura          302706308.80        199408.92         63058.64 [302574327.07, 302838290.53]
+Evolved        300974436.40         94729.40         29956.07 [300911738.36, 301037134.44]
+
+Improvement: 0.5721%
+
+PAIRED T-TEST (Ciura - Evolved):
+  Mean difference: 1731872.40 comparisons
+  t-statistic: 24.3291
+  p-value (approx): 0.00e+00
+  Significant at alpha=0.05: YES
+  Significant at alpha=0.01: YES
+  Significant at alpha=0.001: YES
+
+RUNTIME (microseconds):
+Sequence               Mean           StdDev
+Ciura             829095.80         10218.07
+Evolved           828512.97          7858.52
+
+================================================================================
+AGGREGATE RESULTS
+================================================================================
+Total Ciura:   545960523.32
+Total Evolved: 543146602.49
+Improvement:   0.5154%
+================================================================================

@@ -1,0 +1,20 @@
+# Compiled binaries
+permgen
+validate
+bench
+evolve
+evolve_live
+full_bench
+all_baselines_bench
+
+# Build artifacts
+*.o
+*.out
+
+# Editor files
+*~
+*.swp
+.vscode/
+
+# Large binary data (keep checksums)
+results/perms/*.bin

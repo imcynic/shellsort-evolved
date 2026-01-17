@@ -1,0 +1,9 @@
+{
+  "N": 4000000,
+  "trials": 25,
+  "master_seed": "0xC0FFEE1234",
+  "rng": "xoshiro256** seeded via splitmix64",
+  "seed_derivation": "derive_seed(master, N, trial)",
+  "generation_date": "2026-01-17T00:13:21Z",
+  "format": "binary int32, TRIALS permutations of N elements"
+}
